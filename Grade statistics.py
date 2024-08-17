@@ -41,7 +41,7 @@ while True:
         print("There is no data")
         break
     
-    # Check if user enter only exams points or dont enter numberof completed exercises
+    # Check if user enter only exams points or dont enter number of completed exercises
 
     points_list_check = points_input.split(" ")
     if len(points_list_check) < 2 or points_list_check[1] == "":
