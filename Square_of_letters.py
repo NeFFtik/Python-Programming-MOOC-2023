@@ -24,7 +24,7 @@ def hash():
                 for letter in range(left_border, right_border):
                     block_of_letters[line][letter] = alphabet_dictionary[layers + letter_down]
 
-for test in range(layers - 1):
+for iteration in range(layers - 1):
         hash()
         left_border +=  1
         right_border -= 1
